@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="register/jquery-3.4.1.min.js"></script>
+  <link href="register/register.css" rel="stylesheet" type="text/css" />
+  <title>注册</title>
+</head>
+<body>
+  <div class="img_box">
+    <div class="top_box">
+      <div id="left_triangle"></div>
+      <div id="right_triangle"></div>
+    </div>
+    <div class="head_box">
+      <img src="register/img/increase.png" id="head_img">
+    </div>
+    <input type="file" id="input_file">
+    <div id="head_tip">点击上传头像(不能为空)</div>
+  </div>
+  <div class="register_box">
+    <div class="tag">微信号</div><input type="text" class="register_input" id="wx_input" placeholder="请输入正确格式的微信号"><img src="" class="tip_img_1" id="wx_img">
+    <div id="wx_tip" class="tip_box"><img src="register/img/error_small.png" class="tip_img_2"><span></span></div>
+    <div class="tag">手机号</div><input type="text" class="register_input" id="phone_input" placeholder="请输入11位的手机号"><img src="" class="tip_img_1" id="phone_img">
+    <div id="phone_tip" class="tip_box"><img src="register/img/error_small.png" class="tip_img_2"><span></span></div>
+    <div class="letter_name tag">昵称</div><input type="text" class="register_input" id="name_input" placeholder="请输入2-8字符的昵称"><img src="" class="tip_img_1" id="name_img">
+    <div id="name_tip" class="tip_box"><img src="register/img/error_small.png" class="tip_img_2"><span></span></div>
+    <div class="letter_name tag">密码</div><input type="password" class="register_input" id="pass_input" placeholder="英文字母+数字(6~16位)"><img src="" class="tip_img_1" id="pass_img">
+    <div id="pass_tip" class="tip_box"><img src="register/img/error_small.png" class="tip_img_2"><span></span></div>
+    <div class="letter_name tag">校区</div>
+    <select class="register_input" id="campus_input">
+      <option value="1">五山校区</option>
+      <option value="2">大学城校区</option>
+      <option value="3">国际校区</option>
+    </select>
+    <!--<span id="error_tip" class="tip_box"></span>-->
+    <input type="button" value="确认" id="register_btn" disabled="disabled">
+  </div>
+  <script src="register/register.js"></script>
+</body>
+</html>

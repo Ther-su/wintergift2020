@@ -1,0 +1,144 @@
+@media screen and (min-width:425px) {
+  html {
+    font-size: 100px;
+  }
+}
+@media screen and (max-width:425px) {
+  html {
+    font-size: 27.77vw;
+  }
+}
+body {
+  margin:0;
+  padding:0;
+  width: 100vw;
+  height:100vh;
+  overflow: hidden;
+}
+.top_box {
+  display: flex;
+  flex-direction: row;
+  height:1.27rem;
+  width:3.6rem
+}
+#left_triangle {
+  width:0;
+  height:0;
+  border-left: 1.8rem solid transparent;
+  border-top:1.27rem solid #2BAFEA;
+}
+#right_triangle {
+  width:0;
+  height:0;
+  border-right: 1.8rem solid transparent;
+  border-top:1.27rem solid #2BAFEA;
+  float:right;
+}
+.top_box img {
+  float:left;
+  border:none;
+  margin:0;
+  padding:0;
+  display:block;
+  width:1.80rem;
+  height:1.27rem;
+}
+.head_box {
+  display: flex;
+  width:1.2rem;
+  height: 1.2rem;
+  position: absolute;
+  border:1px solid rgb(54, 47, 47);
+  border-radius: 50%;
+  left: 1.2rem;
+  top:0.6rem;
+  z-index: 1;
+  background-color: white;
+  overflow: hidden;
+}
+#head_img {
+  max-width: 100%;
+  height:auto;
+}
+#head_tip {
+  position:absolute;
+  top:1.8rem;
+  width:1.2rem;
+  margin-left: 1.3rem;
+  z-index:44;
+  font-size: 0.08rem;
+  color:red;
+}
+#input_file {
+  width: 1.2rem;
+  height:1.2rem;
+  position: absolute;
+  top:0.6rem;
+  margin-left: 1.2rem;
+  opacity: 0;
+  z-index: 23;
+  cursor: pointer;
+}
+.register_input {
+  margin-left: 0.03rem;
+  width:1.6rem;
+  height:0.25rem;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: black 1px solid;
+}
+.img_box {
+  height:2.0rem;
+}
+.register_box {
+  display:flex;
+  direction:row;
+  align-items:center;
+  align-content:space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  height:3.4rem;
+  width:2.4rem;
+  font-size: 0.14rem;
+}
+#register_btn {
+  cursor:pointer;
+  width:1.09rem;
+  height:0.4rem;
+  border-radius: 6px;
+  background-color: #2BAFEA;
+  color:#FFFFFF;
+  border:1px solid rgb(80, 74, 74);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.1rem;
+  font-size: 0.14rem;
+}
+.tip_box {
+  width:2rem;
+  height:0.27rem;
+  font-size: 0.13rem;
+  padding:0 0.1rem;
+  display: flex;
+  line-height: 0.27rem;
+  color:red;
+  align-items: center;
+  visibility: hidden;
+}
+.tip_img_1 {
+  visibility: hidden;
+  width:0.24rem;
+  height:0.24rem;
+}
+.tip_img_2{
+  width:0.20rem;
+  height:0.20rem;
+  align-items : center ;
+}
+.letter_name {
+ letter-spacing: 0.07rem;
+}
+.tag {
+  width:0.42rem;
+}
