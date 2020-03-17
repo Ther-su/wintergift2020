@@ -31,9 +31,9 @@ $("#input_file").change(function(){
     formdata.append("name",$("#name_input").val());
     formdata.append("password",$("#pass_input").val());
       $.ajax({
-        url:"http://pn.forseason.vip/user/register",
+        url:"https://pn.forseason.vip/user/register",
         type:"post",
-	      dataType:"text",
+	dataType:"text",
         data:formdata,
         processData: false,
         contentType: false,
